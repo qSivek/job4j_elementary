@@ -14,7 +14,6 @@ class MaxTest {
         assertThat(result).isEqualTo(expected);
     }
 
-
     @Test
     void whenMax5To3Then5() {
         int left = 5;
