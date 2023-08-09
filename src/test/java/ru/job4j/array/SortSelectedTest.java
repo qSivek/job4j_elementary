@@ -20,11 +20,12 @@ public class SortSelectedTest {
         int[] expected = {2, 5, 7, 8, 13};
         assertThat(result).containsExactly(expected);
     }
+
     @Test
-    void whenSortThreeNum(){
+    void whenSortThreeNum() {
         int[] data = {27, 54, 30};
         int[] result = SortSelected.sort(data);
-        int[] expected = {27,30,54};
+        int[] expected = {27, 30, 54};
         assertThat(result).containsExactly(expected);
     }
 }
