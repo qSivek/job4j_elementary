@@ -42,7 +42,7 @@ class MaxTest {
     }
 
     @Test
-    void whenMax23and1and4Then23(){
+    void whenMax23and1and4Then23() {
         int oneNum = 23;
         int twoNum = 1;
         int threeNum = 4;
@@ -52,7 +52,7 @@ class MaxTest {
     }
 
     @Test
-    void whenMax13and299and54Then299(){
+    void whenMax13and299and54Then299() {
         int oneNum = 13;
         int twoNum = 299;
         int threeNum = 54;
@@ -62,7 +62,7 @@ class MaxTest {
     }
 
     @Test
-    void whenMax1and29and33and66Then66(){
+    void whenMax1and29and33and66Then66() {
         int oneNum = 1;
         int twoNum = 29;
         int threeNum = 33;
@@ -73,7 +73,7 @@ class MaxTest {
     }
 
     @Test
-    void whenMax75and2and3and666Then66(){
+    void whenMax75and2and3and666Then66() {
         int oneNum = 75;
         int twoNum = 2;
         int threeNum = 3;
